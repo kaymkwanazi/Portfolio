@@ -1,0 +1,98 @@
+:root{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1rem;
+  background-image: url(./assets/6184604.jpg);
+  
+}
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 2%;
+  padding-left: 2%;
+}
+.logo{
+  width: 50px;
+  height: 50px;
+}
+nav ul li{
+  display: inline;
+}
+nav ul li a{
+  display: inline;
+  text-decoration: none;
+  padding-right: 30px;
+  color: whitesmoke;
+  font-size: 20px;
+}
+nav ul li a:hover{
+  color: rgb(0, 17, 255);
+}
+/* -------Home page------------ */
+.line1{
+  text-align: left;
+  font-size: 32px;
+  color: rgba(208, 226, 238, 0.908);
+  padding: 2%;
+}
+.line2{
+  text-align: left;
+  font-size: 70px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: aliceblue;
+  margin-top: 30px;
+  padding: 2%;
+}
+/* ----------Contact page---------- */
+.contact {
+  border-radius: 20px;
+  background-color: rgba(56, 64, 214, 0.599);
+  padding-left: 50px;
+  padding-top: 10px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+  margin-top: 100px;
+}
+.headingCont{
+  text-align: center;
+  font-size: 30px;
+  color: whitesmoke;
+}
+p label{
+  color: whitesmoke;
+}
+/* ---------phone number------------ */
+.phone {
+  padding-top: 15px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+}
+.phoneImg {
+  margin-right: 20px;
+}
+/* ----------email address ------------ */
+.email {
+  font-size: 20px;
+  padding-top: 20px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+}
+.emailImg {
+  margin-right: 20px;
+}
+/* -----------location ------------- */
+.location {
+  font-size: 20px;
+  padding-top: 20px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+}
+.locationImg {
+  margin-right: 20px;
+}
+
+
