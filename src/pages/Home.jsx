@@ -5,9 +5,14 @@ const Home = () => {
         <div className='homepage'>
             
             <div>
-              <p className='line1'>Hi, I'm a</p>
-              <p className='line2'>FULL STACK</p>
+              <p className='line1'>Kamogelo Mkwanazi</p>
+              <p className='line2'>FRONT END</p>
               <p className='line2'>SOFTWARE DEVELOPER</p>
+            </div>
+            <div className="prev">
+              <a href="portfolio.jsx">
+                <button>Previous Projects</button>
+              </a>
             </div>
             
         </div>

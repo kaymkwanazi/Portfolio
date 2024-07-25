@@ -15,8 +15,8 @@ function Footer() {
             </div>
             <div className='est'><p>2024 - KP Mkwanazi. All rights reserved</p></div>
             <div className='socials'>
-                <a href='www.linkedin.com/in/kamogelo-mkwanazi-b140a7253'><img className='facebook' src={Facebook}></img></a>
-                <a href='#'><img className='linkedin' src={Linkedin}></img></a>
+                <a href='https://www.facebook.com/profile.php?id=100006812869177'><img className='facebook' src={Facebook}></img></a>
+                <a href='https://www.linkedin.com/in/kamogelo-mkwanazi-b140a7253/'><img className='linkedin' src={Linkedin}></img></a>
             </div>
         </footer>
     </div>

@@ -4,7 +4,7 @@
 }
 :root{
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 1rem;
+  font-size: 20px;
   background-image: url('./assets/6184604.jpg');
   background-repeat: no-repeat;
   background-size: cover;
@@ -12,6 +12,7 @@
   height: 100%;
   width: 100%;
 }
+/* ------navigation bar-------- */
 nav{
   display: flex;
   align-items: center;
@@ -36,12 +37,21 @@ nav ul li a{
 nav ul li a:hover{
   color: rgb(0, 17, 255);
 }
+ul li:nth-child(4) a{
+  background-color:rgb(5, 75, 217);
+  padding: 5px 20px 10px 20px;
+  border-radius: 15px;
+}
+ul li:nth-child(4) :hover{
+  color: #f5f5f5;
+}
 /* -------Home page------------ */
 .line1{
   text-align: left;
-  font-size: 32px;
-  color: rgba(208, 226, 238, 0.908);
-  padding: 2%;
+  font-size: 70px;
+  color: rgb(97, 3, 113);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  
 }
 .line2{
   text-align: left;
@@ -49,21 +59,26 @@ nav ul li a:hover{
   font-family: Georgia, 'Times New Roman', Times, serif;
   color: aliceblue;
   margin-top: 30px;
-  padding: 2%;
+  
+}
+.prev button{
+  border-radius: 15px;
+  padding: 20px;
+  background-color: blueviolet;
+  color: #f5f5f5;
 }
 /* ----------Contact page---------- */
 .contact {
   border-top-left-radius: 100px;
   border-top-right-radius: 100px;
   background-color: rgba(46, 56, 248, 0.599);
-  padding: 10px 80px 0px 80px;
-  margin-top: 200px;
-  position: absolute;
-  height: 70vh;
+  padding: 10px 80px 20px 80px;
+  margin-top: 100px;
+ 
 }
 .headingCont{
   text-align: center;
-  font-size: 30px;
+  font-size: 32px;
   color: whitesmoke;
 }
 p label{
@@ -114,13 +129,14 @@ textarea {
   resize: none;
   font-size: 16px;
   width: 100%;
+  color: #f5f5f5;
 }
 form ::placeholder{
   padding-left: 10px;
 }
 /* ---------phone number------------ */
 .phone {
-  padding-top: 15px;
+  padding: 15px;
   height: 30px;
   display: flex;
   align-items: center;
@@ -132,10 +148,12 @@ form ::placeholder{
 /* ----------email address ------------ */
 .email {
   font-size: 20px;
-  padding-top: 20px;
+  padding: 15px;
+  margin-top: 15px;
   height: 30px;
   display: flex;
   align-items: center;
+  font-size: 20px;
 }
 .emailImg {
   margin-right: 20px;
@@ -143,17 +161,19 @@ form ::placeholder{
 /* -----------location ------------- */
 .location {
   font-size: 20px;
-  padding-top: 20px;
+  padding: 15px;
+  margin-top: 15px;
   height: 30px;
   display: flex;
   align-items: center;
+  font-size: 20px;
 }
 .locationImg {
   margin-right: 20px;
 }
 /* ------footer--------- */
 hr {
-  margin-top: 100px;
+  margin-top: 50px;
 }
 footer{
   display: flex;
@@ -165,6 +185,9 @@ footer{
 .leftside{
   float: left;
   text-align: left;
+}
+.socials a{
+  padding: 10px;
 }
 .facebook{
   width: 50px;
@@ -178,6 +201,11 @@ footer{
   font-size: 14px;
   color: whitesmoke;
 }
-
+/* -----------About section------------- */
+.about{
+  color: #f5f5f5;
+  font-size: 32px;
+  text-align: center;
+}
 
 
