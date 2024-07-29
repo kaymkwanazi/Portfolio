@@ -12,18 +12,18 @@ function Contact () {
       <div className='row'>
         <div className='column1'>
             <p><label id='message'>Drop Me a Message:</label></p>
-            <p>Contact me using the below contact information or send me a message. I would love to hear from you.</p>
-              <div className='phone'>
-                <img className='phoneImg'src={Phone} width='40px'></img>
-                <p>072 563 1254</p>
-              </div> 
-              <div className='email'>
+            <p> Feel free to contact me using the below contact information or send me a message. I would love to hear from you.</p>
+                <div className='phone'>
+                  <img className='phoneImg'src={Phone} width='40px'></img>
+                  <p>072 563 1254</p>
+                </div> 
+                    <div className='email'>
                       <img className='emailImg'src={Email} width='40px'></img>
-                      <p>kamo@gmail.com</p>
+                      <p>Kamopmkwanazi@gmail.com</p>
                     </div>
                         <div className='location'>
                           <img className='locationImg'src={Location} width='40px'></img>
-                          <p>123 First street</p>
+                          <p>175 Helen Joseph street, Pretoria CBD</p>
                         </div>
         </div>
         {/* 2nd column */}
@@ -37,7 +37,7 @@ function Contact () {
         </div>
 
       </div>
-      <Footer />
+      <Footer/>
     </div>
     
     </>
