@@ -181,7 +181,7 @@ ul li:nth-child(4) :hover{
   background-color: rgba(46, 56, 248, 0.599);
   padding: 40px;
   margin-top: 280px;
-  height: 50vh;
+  height: fit-content;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
