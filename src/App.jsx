@@ -5,6 +5,7 @@ import Navbar from './components/navbar.jsx'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Logo from './assets/logo.png'
 import Footer from './components/footer.jsx'
+import Portfolio from './pages/portfolio.jsx'
 
 function App() {
   return (
@@ -17,8 +18,11 @@ function App() {
           <Route path='' element={<Home />} />
           <Route path='/about' element={<About />} />
           <Route path='/contact' element={<Contact />} />
+          <Route path='/portfolio' element={<Portfolio />} />
         </Routes>
       </Router>
+
+      <Footer/>
     </>
   )
 }

@@ -12,7 +12,7 @@ function Contact () {
       <div className='row'>
         <div className='column1'>
             <p><label id='message'>Drop Me a Message:</label></p>
-            <p> Feel free to contact me using the below contact information or send me a message. I would love to hear from you.</p>
+            <p> If you are interested in working with me, feel free to contact me using the below contact information or send me a message. I would love to hear from you.</p>
                 <div className='phone'>
                   <img className='phoneImg'src={Phone} width='40px'></img>
                   <p>072 563 1254</p>
@@ -37,9 +37,10 @@ function Contact () {
         </div>
 
       </div>
-      <Footer/>
+     
+      
     </div>
-    
+     
     </>
   );
 };

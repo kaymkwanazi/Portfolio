@@ -6,6 +6,7 @@ import IMAGE4 from '../assets/userS.png'
 import IMAGE5 from '../assets/icon.jpg'
 import IMAGEJS from '../assets/js.jpg'
 import IMAGEHTML from '../assets/html.jpg'
+import IMAGECSS from '../assets/css.jpg'
 import Footer from '../components/footer';
 
 function About () {
@@ -36,8 +37,8 @@ function About () {
                                     <span>XR Development</span>
                                 </div>
                                     <div className='icon-item'>
-                                      <img src={IMAGE2}></img>
-                                      <span>C++</span>
+                                      <img src={IMAGECSS}></img>
+                                      <span>CSS</span>
                                     </div>
                                         <div className='icon-item'>
                                             <img src={IMAGEJS}></img>
@@ -45,15 +46,16 @@ function About () {
                                         </div>
                                             <div className='icon-item'>
                                                 <img src={IMAGEHTML}></img>
-                                                <span>JavaScript</span>
+                                                <span>HMTL</span>
                                             </div>
                                               <div className='icon-item'>
                                                   <img src={IMAGE4}></img>
-                                                  <span>JavaScript</span>
+                                                  <span>User Support</span>
                                               </div>
                     </div>
               </div>
-              <Footer />
+              
+              
       </div>
   );
 };
