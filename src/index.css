@@ -43,7 +43,7 @@ ul li:nth-child(4) :hover{
 }
 /* -------Home page------------ */
 .homepage{
-  margin-top: 40px;
+  padding-top: 40px;
   padding: 40px;
   height: 70vh;
   display: flex;
@@ -77,7 +77,7 @@ ul li:nth-child(4) :hover{
   color: #f5f5f5;
   font-size: 30px;
   text-align: center;
-  margin-top: 20px;
+  padding-top: 20px;
   padding: 50px;
   height: 70vh;
   display: flex;
@@ -180,7 +180,7 @@ ul li:nth-child(4) :hover{
   border-radius: 80px;
   background-color: rgba(46, 56, 248, 0.599);
   padding: 40px;
-  margin-top: 280px;
+  margin-top: 200px;
   height: fit-content;
   display: flex;
   flex-direction: column;
