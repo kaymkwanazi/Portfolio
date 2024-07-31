@@ -7,8 +7,11 @@ import Footer from '../components/footer.jsx'
 function Contact () {
   return (
     <>
-    <div className='contact'>
-      <h3 className='headingCont'>CONTACT</h3>
+      <div className='contact'>
+        <div className='headingCont'>
+        <h3 >CONTACT</h3>
+      </div>
+      
       <div className='row'>
         <div className='column1'>
             <p><label id='message'>Drop Me a Message:</label></p>
